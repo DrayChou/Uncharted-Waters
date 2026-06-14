@@ -14,6 +14,12 @@
 
 有多种格式，推荐 PDF，文字可搜索；webp 体积小；PNG 最通用。[百度盘下载](https://pan.baidu.com/s/1k5jdIIcIv4Md7U48WKx7TA)，提取码: f2x8。
 
+## 游戏内原始地图
+
+[`daikoukai2_fullmap.bmp`](daikoukai2_fullmap.bmp)（1.7 MB，912×480，BMP）
+
+游戏内嵌的世界地图原图，棕色/绿色复古配色，**无港口标注**（只是游戏里的背景贴图），适合做壁纸或对照海岸线轮廓参考。
+
 其他：
 
 * [目前流行的地图版本](https://tieba.baidu.com/p/645368152)

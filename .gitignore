@@ -28,3 +28,5 @@ Pods/
 *.save
 ._*
 *.bak
+.git.backup-*
+.playwright-mcp

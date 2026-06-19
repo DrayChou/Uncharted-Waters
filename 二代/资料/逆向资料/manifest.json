@@ -1,0 +1,137 @@
+{
+  "source_repo": "https://github.com/dongzhang84/sea2_demo",
+  "source_commit": "82543a3",
+  "imported_at": "2026-06-20",
+  "source_policy": {
+    "imported": "尽量保留原仓库字段与组织方式，供回溯来源与后续脚本直接消费",
+    "generated": "由本仓库基于 imported 数据二次整理，优先服务复刻、地图与表格处理",
+    "notes": "ships.json、characters.json、monster_dat.json 等低置信度文件仅作研究线索，不应直接当正式主数据"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "confidence": "high",
+      "purpose": "本目录总说明与来源边界"
+    },
+    {
+      "path": "港口坐标与编号对照表.md",
+      "confidence": "high",
+      "purpose": "100港口图片与攻略编号、坐标的本地对照表"
+    },
+    {
+      "path": "剧情结构研究摘录.md",
+      "confidence": "medium",
+      "purpose": "剧情与事件结构导读"
+    },
+    {
+      "path": "复刻可用数据清单.md",
+      "confidence": "high",
+      "purpose": "按复刻用途给出数据优先级"
+    },
+    {
+      "path": "复刻系统蓝图.md",
+      "confidence": "high",
+      "purpose": "总结世界、港口、航海、剧情四层复刻架构"
+    },
+    {
+      "path": "imported/sea2_demo/README.md",
+      "confidence": "high",
+      "purpose": "原始导入层说明"
+    },
+    {
+      "path": "imported/sea2_demo/docs/sea2_demo-PORTS_CATALOG.md",
+      "confidence": "high",
+      "purpose": "100港口目录与坐标参考"
+    },
+    {
+      "path": "imported/sea2_demo/docs/sea2_demo-PHASE1_DATA_TABLES.md",
+      "confidence": "high",
+      "purpose": "底层数据表研究总览"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/guide_ports_reference.json",
+      "confidence": "high",
+      "purpose": "100港口结构化基准表"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/ports_projected.json",
+      "confidence": "high",
+      "purpose": "港口投影与手工修正结果"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/windcur_dat.json",
+      "confidence": "high",
+      "purpose": "30x45风向/洋流网格"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/za_dat.json",
+      "confidence": "medium",
+      "purpose": "101港口x12字段原始数值表，语义未完全命名"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/monster_dat.json",
+      "confidence": "low",
+      "purpose": "海怪相关原始结构尝试"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/data1_inventory.json",
+      "confidence": "medium",
+      "purpose": "Data1各part清单与尺寸索引"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/ships.json",
+      "confidence": "low",
+      "purpose": "船只原始提取结果，名称仍未完全解码"
+    },
+    {
+      "path": "imported/sea2_demo/game_data/characters.json",
+      "confidence": "low",
+      "purpose": "角色分类占位结果，适合仅作线索"
+    },
+    {
+      "path": "generated/ports_reference.csv",
+      "confidence": "high",
+      "purpose": "便于复刻工程直接读取的港口CSV"
+    },
+    {
+      "path": "generated/ports_for_remake.json",
+      "confidence": "high",
+      "purpose": "整合本地港口图路径与坐标的复刻主索引JSON"
+    },
+    {
+      "path": "generated/region_summary.json",
+      "confidence": "high",
+      "purpose": "港口区域分布摘要JSON"
+    },
+    {
+      "path": "generated/region_summary.csv",
+      "confidence": "high",
+      "purpose": "港口区域分布摘要CSV"
+    },
+    {
+      "path": "generated/windcur_grid_matrix.csv",
+      "confidence": "high",
+      "purpose": "风向洋流矩阵CSV"
+    },
+    {
+      "path": "generated/windcur_cells.csv",
+      "confidence": "high",
+      "purpose": "风向洋流长表CSV"
+    },
+    {
+      "path": "generated/windcur_value_histogram.csv",
+      "confidence": "high",
+      "purpose": "风向洋流值频次统计"
+    },
+    {
+      "path": "generated/za_dat_ports_raw.csv",
+      "confidence": "medium",
+      "purpose": "按港口展开的za_dat原始字段CSV"
+    },
+    {
+      "path": "generated/za_dat_field_stats.csv",
+      "confidence": "medium",
+      "purpose": "za_dat每列统计摘要"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "region": "东亚",
+    "count": 6,
+    "guide_num_min": 95,
+    "guide_num_max": 100,
+    "sample_ports": "泉州、澳门、河内、长安、界"
+  },
+  {
+    "region": "东南亚",
+    "count": 8,
+    "guide_num_min": 85,
+    "guide_num_max": 94,
+    "sample_ports": "安波那、麻六甲、德那第、班达、德利"
+  },
+  {
+    "region": "东非",
+    "count": 6,
+    "guide_num_min": 67,
+    "guide_num_max": 72,
+    "sample_ports": "索法拉、马林迪、摩加迪休、蒙巴萨、莫三比克"
+  },
+  {
+    "region": "中东",
+    "count": 9,
+    "guide_num_min": 73,
+    "guide_num_max": 81,
+    "sample_ports": "亚丁、根布龙、马沙华、开罗、巴斯拉"
+  },
+  {
+    "region": "亚美利加",
+    "count": 15,
+    "guide_num_min": 43,
+    "guide_num_max": 57,
+    "sample_ports": "加拉卡斯、喀他基那、哈瓦那、马加里塔、巴拿马城"
+  },
+  {
+    "region": "伊斯兰",
+    "count": 8,
+    "guide_num_min": 3,
+    "guide_num_max": 26,
+    "sample_ports": "伊斯坦堡、萨罗尼加、亚力山卓、雅法、贝鲁特"
+  },
+  {
+    "region": "伊比利",
+    "count": 4,
+    "guide_num_min": 1,
+    "guide_num_max": 7,
+    "sample_ports": "里斯本、塞维尔、巴塞隆纳、瓦伦西亚"
+  },
+  {
+    "region": "北欧",
+    "count": 15,
+    "guide_num_min": 28,
+    "guide_num_max": 42,
+    "sample_ports": "波尔多、南特、伦敦、布里斯托尔、都柏林"
+  },
+  {
+    "region": "北非",
+    "count": 4,
+    "guide_num_min": 5,
+    "guide_num_max": 27,
+    "sample_ports": "阿尔及耳、突尼斯、的黎波里、休达"
+  },
+  {
+    "region": "印度",
+    "count": 5,
+    "guide_num_min": 82,
+    "guide_num_max": 93,
+    "sample_ports": "迪普、柯钦、锡兰、果阿、科泽科德"
+  },
+  {
+    "region": "地中海",
+    "count": 11,
+    "guide_num_min": 8,
+    "guide_num_max": 22,
+    "sample_ports": "马赛、热那亚、比萨、那不勒斯、锡腊库扎"
+  },
+  {
+    "region": "西非",
+    "count": 9,
+    "guide_num_min": 58,
+    "guide_num_max": 66,
+    "sample_ports": "马德拉韦、圣克鲁斯、圣约鲁吉、毕绍、罗安达"
+  }
+]

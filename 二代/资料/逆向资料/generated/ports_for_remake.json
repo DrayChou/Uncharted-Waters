@@ -1,0 +1,1907 @@
+{
+  "source_repo": "https://github.com/dongzhang84/sea2_demo",
+  "source_commit": "82543a3",
+  "count": 100,
+  "ports": [
+    {
+      "repo_index": 0,
+      "guide_num": 1,
+      "name": "里斯本",
+      "region": "伊比利",
+      "lat": 39,
+      "lon": -10,
+      "worldmap_x": 120,
+      "worldmap_y": 342,
+      "viewport_x": 71,
+      "viewport_y": 228,
+      "projected": {
+        "wx": 120,
+        "wy": 356,
+        "proj_x": 104,
+        "proj_y": 358
+      },
+      "local_asset": "二代/港口布局图/00.里斯本 - 那所高大的宅邸就是公爵府.png"
+    },
+    {
+      "repo_index": 1,
+      "guide_num": 2,
+      "name": "塞维尔",
+      "region": "伊比利",
+      "lat": 37,
+      "lon": -6,
+      "worldmap_x": 144,
+      "worldmap_y": 357,
+      "viewport_x": 85,
+      "viewport_y": 238,
+      "projected": {
+        "wx": 130,
+        "wy": 372,
+        "proj_x": 130,
+        "proj_y": 372
+      },
+      "local_asset": "二代/港口布局图/01.塞维利亚 - 当初哥伦布得到伊丽莎白女王的支持是从这个港出发的.png"
+    },
+    {
+      "repo_index": 2,
+      "guide_num": 3,
+      "name": "伊斯坦堡",
+      "region": "伊斯兰",
+      "lat": 41,
+      "lon": 28,
+      "worldmap_x": 348,
+      "worldmap_y": 327,
+      "viewport_x": 206,
+      "viewport_y": 218,
+      "projected": {
+        "wx": 350,
+        "wy": 343,
+        "proj_x": 350,
+        "proj_y": 343
+      },
+      "local_asset": "二代/港口布局图/02.伊斯坦布尔 - 全世界唯有伊斯兰帝国版图最大.png"
+    },
+    {
+      "repo_index": 3,
+      "guide_num": 4,
+      "name": "巴塞隆纳",
+      "region": "伊比利",
+      "lat": 41,
+      "lon": 2,
+      "worldmap_x": 192,
+      "worldmap_y": 327,
+      "viewport_x": 113,
+      "viewport_y": 218,
+      "projected": {
+        "wx": 181,
+        "wy": 343,
+        "proj_x": 181,
+        "proj_y": 343
+      },
+      "local_asset": "二代/港口布局图/03.巴塞罗纳 - 这条街上的里白罗先生是制作地图的名家.png"
+    },
+    {
+      "repo_index": 4,
+      "guide_num": 5,
+      "name": "阿尔及耳",
+      "region": "北非",
+      "lat": 37,
+      "lon": 3,
+      "worldmap_x": 198,
+      "worldmap_y": 357,
+      "viewport_x": 117,
+      "viewport_y": 238,
+      "projected": {
+        "wx": 188,
+        "wy": 378,
+        "proj_x": 188,
+        "proj_y": 372
+      },
+      "local_asset": "二代/港口布局图/04.阿尔及尔 - 别大声说话，这里是巴巴里海盗的根据地.png"
+    },
+    {
+      "repo_index": 5,
+      "guide_num": 6,
+      "name": "突尼斯",
+      "region": "北非",
+      "lat": 37,
+      "lon": 10,
+      "worldmap_x": 240,
+      "worldmap_y": 357,
+      "viewport_x": 142,
+      "viewport_y": 238,
+      "projected": {
+        "wx": 233,
+        "wy": 372,
+        "proj_x": 233,
+        "proj_y": 372
+      },
+      "local_asset": "二代/港口布局图/05.突尼斯 - 本港是克塞尔海盗的据点.png"
+    },
+    {
+      "repo_index": 6,
+      "guide_num": 7,
+      "name": "瓦伦西亚",
+      "region": "伊比利",
+      "lat": 39,
+      "lon": 0,
+      "worldmap_x": 180,
+      "worldmap_y": 342,
+      "viewport_x": 106,
+      "viewport_y": 228,
+      "projected": {
+        "wx": 171,
+        "wy": 360,
+        "proj_x": 169,
+        "proj_y": 358
+      },
+      "local_asset": "二代/港口布局图/06.巴伦西亚 - 据说莱姆果汁是治疗坏血病的特效药.png"
+    },
+    {
+      "repo_index": 7,
+      "guide_num": 8,
+      "name": "马赛",
+      "region": "地中海",
+      "lat": 43,
+      "lon": 5,
+      "worldmap_x": 210,
+      "worldmap_y": 312,
+      "viewport_x": 124,
+      "viewport_y": 208,
+      "projected": {
+        "wx": 199,
+        "wy": 329,
+        "proj_x": 201,
+        "proj_y": 329
+      },
+      "local_asset": "二代/港口布局图/07.马赛 - 深夜去商店的话，没准能买到意想不到的好东西.png"
+    },
+    {
+      "repo_index": 8,
+      "guide_num": 9,
+      "name": "热那亚",
+      "region": "地中海",
+      "lat": 44,
+      "lon": 8,
+      "worldmap_x": 228,
+      "worldmap_y": 305,
+      "viewport_x": 135,
+      "viewport_y": 203,
+      "projected": {
+        "wx": 220,
+        "wy": 321,
+        "proj_x": 220,
+        "proj_y": 321
+      },
+      "local_asset": "二代/港口布局图/08.热那亚 - 这个港口由总督管理.png"
+    },
+    {
+      "repo_index": 9,
+      "guide_num": 10,
+      "name": "比萨",
+      "region": "地中海",
+      "lat": 43,
+      "lon": 9,
+      "worldmap_x": 234,
+      "worldmap_y": 312,
+      "viewport_x": 138,
+      "viewport_y": 208,
+      "projected": {
+        "wx": 229,
+        "wy": 333,
+        "proj_x": 227,
+        "proj_y": 329
+      },
+      "local_asset": "二代/港口布局图/09.比萨 - 听说摩狄纳公爵正着手调查世上的珍奇.png"
+    },
+    {
+      "repo_index": 10,
+      "guide_num": 11,
+      "name": "那不勒斯",
+      "region": "地中海",
+      "lat": 40,
+      "lon": 13,
+      "worldmap_x": 258,
+      "worldmap_y": 335,
+      "viewport_x": 152,
+      "viewport_y": 223,
+      "projected": {
+        "wx": 257,
+        "wy": 347,
+        "proj_x": 253,
+        "proj_y": 351
+      },
+      "local_asset": "二代/港口布局图/10.那不勒斯 - 这条大街上居住着闻名天下的天文学家朱诺亚教授.png"
+    },
+    {
+      "repo_index": 11,
+      "guide_num": 12,
+      "name": "锡腊库扎",
+      "region": "地中海",
+      "lat": 37,
+      "lon": 15,
+      "worldmap_x": 270,
+      "worldmap_y": 357,
+      "viewport_x": 160,
+      "viewport_y": 238,
+      "projected": {
+        "wx": 266,
+        "wy": 372,
+        "proj_x": 266,
+        "proj_y": 372
+      },
+      "local_asset": "二代/港口布局图/11.锡腊库扎 - 这不是在马约尔卡，不许无礼.png"
+    },
+    {
+      "repo_index": 12,
+      "guide_num": 13,
+      "name": "帕尔巴",
+      "region": "地中海",
+      "lat": 39,
+      "lon": 2,
+      "worldmap_x": 192,
+      "worldmap_y": 342,
+      "viewport_x": 113,
+      "viewport_y": 228,
+      "projected": {
+        "wx": 179,
+        "wy": 358,
+        "proj_x": 181,
+        "proj_y": 358
+      },
+      "local_asset": "二代/港口布局图/12.帕尔马 - 本港的奥立维斯显示想了解世界的地形情况，会画地图的人可以去找他.png"
+    },
+    {
+      "repo_index": 13,
+      "guide_num": 14,
+      "name": "威尼斯",
+      "region": "地中海",
+      "lat": 44,
+      "lon": 13,
+      "worldmap_x": 258,
+      "worldmap_y": 305,
+      "viewport_x": 152,
+      "viewport_y": 203,
+      "projected": {
+        "wx": 251,
+        "wy": 321,
+        "proj_x": 253,
+        "proj_y": 321
+      },
+      "local_asset": "二代/港口布局图/13.威尼斯 - 本港的大银行是夏洛克银行总行.png"
+    },
+    {
+      "repo_index": 14,
+      "guide_num": 15,
+      "name": "拉古扎",
+      "region": "地中海",
+      "lat": 42,
+      "lon": 17,
+      "worldmap_x": 282,
+      "worldmap_y": 320,
+      "viewport_x": 167,
+      "viewport_y": 213,
+      "projected": {
+        "wx": 278,
+        "wy": 332,
+        "proj_x": 278,
+        "proj_y": 336
+      },
+      "local_asset": "二代/港口布局图/14.拉古扎 - 这里的商店没什么好货.png"
+    },
+    {
+      "repo_index": 15,
+      "guide_num": 16,
+      "name": "干地亚",
+      "region": "地中海",
+      "lat": 35,
+      "lon": 25,
+      "worldmap_x": 330,
+      "worldmap_y": 372,
+      "viewport_x": 195,
+      "viewport_y": 248,
+      "projected": {
+        "wx": 330,
+        "wy": 389,
+        "proj_x": 330,
+        "proj_y": 387
+      },
+      "local_asset": "二代/港口布局图/15.干地亚 - 哈哈，真遗憾，这个港什么也没有.png"
+    },
+    {
+      "repo_index": 16,
+      "guide_num": 17,
+      "name": "雅典",
+      "region": "地中海",
+      "lat": 38,
+      "lon": 23,
+      "worldmap_x": 318,
+      "worldmap_y": 350,
+      "viewport_x": 188,
+      "viewport_y": 233,
+      "projected": {
+        "wx": 317,
+        "wy": 365,
+        "proj_x": 317,
+        "proj_y": 365
+      },
+      "local_asset": "二代/港口布局图/16.雅典 - 欢迎来到雅典，一个充满神话和古迹的城市.png"
+    },
+    {
+      "repo_index": 17,
+      "guide_num": 18,
+      "name": "萨罗尼加",
+      "region": "伊斯兰",
+      "lat": 41,
+      "lon": 22,
+      "worldmap_x": 311,
+      "worldmap_y": 327,
+      "viewport_x": 184,
+      "viewport_y": 218,
+      "projected": {
+        "wx": 311,
+        "wy": 343,
+        "proj_x": 311,
+        "proj_y": 343
+      },
+      "local_asset": "二代/港口布局图/17.萨洛尼卡 - 唉，这港口真没意思，赶快走吧.png"
+    },
+    {
+      "repo_index": 18,
+      "guide_num": 19,
+      "name": "亚力山卓",
+      "region": "伊斯兰",
+      "lat": 31,
+      "lon": 29,
+      "worldmap_x": 354,
+      "worldmap_y": 402,
+      "viewport_x": 209,
+      "viewport_y": 268,
+      "projected": {
+        "wx": 354,
+        "wy": 418,
+        "proj_x": 356,
+        "proj_y": 416
+      },
+      "local_asset": "二代/港口布局图/18.亚力山卓 - 这个港过去贸易相当繁荣.png"
+    },
+    {
+      "repo_index": 19,
+      "guide_num": 20,
+      "name": "雅法",
+      "region": "伊斯兰",
+      "lat": 32,
+      "lon": 34,
+      "worldmap_x": 384,
+      "worldmap_y": 394,
+      "viewport_x": 227,
+      "viewport_y": 262,
+      "projected": {
+        "wx": 390,
+        "wy": 409,
+        "proj_x": 388,
+        "proj_y": 409
+      },
+      "local_asset": "二代/港口布局图/19.雅法 - 从这里再向内陆走一点就是圣地耶路撒冷，当然这与游戏本身无关.png"
+    },
+    {
+      "repo_index": 20,
+      "guide_num": 21,
+      "name": "贝鲁特",
+      "region": "伊斯兰",
+      "lat": 33,
+      "lon": 35,
+      "worldmap_x": 390,
+      "worldmap_y": 387,
+      "viewport_x": 231,
+      "viewport_y": 258,
+      "projected": {
+        "wx": 395,
+        "wy": 402,
+        "proj_x": 395,
+        "proj_y": 402
+      },
+      "local_asset": "二代/港口布局图/20.贝鲁特 - 很久以前十字军曾打到这里.png"
+    },
+    {
+      "repo_index": 21,
+      "guide_num": 22,
+      "name": "尼古西亚",
+      "region": "地中海",
+      "lat": 35,
+      "lon": 33,
+      "worldmap_x": 378,
+      "worldmap_y": 372,
+      "viewport_x": 224,
+      "viewport_y": 248,
+      "projected": {
+        "wx": 382,
+        "wy": 387,
+        "proj_x": 382,
+        "proj_y": 387
+      },
+      "local_asset": "二代/港口布局图/21.尼科西亚 - 这个塞浦路斯岛，从纪元前开始就不断地被别国统治.png"
+    },
+    {
+      "repo_index": 22,
+      "guide_num": 23,
+      "name": "的黎波里",
+      "region": "北非",
+      "lat": 33,
+      "lon": 13,
+      "worldmap_x": 258,
+      "worldmap_y": 387,
+      "viewport_x": 152,
+      "viewport_y": 258,
+      "projected": {
+        "wx": 255,
+        "wy": 406,
+        "proj_x": 253,
+        "proj_y": 402
+      },
+      "local_asset": "二代/港口布局图/22.的黎波里 - 这个港是希腊时代由三个城市合并的，所以称作的黎波里.png"
+    },
+    {
+      "repo_index": 23,
+      "guide_num": 24,
+      "name": "卡法",
+      "region": "伊斯兰",
+      "lat": 45,
+      "lon": 34,
+      "worldmap_x": 384,
+      "worldmap_y": 297,
+      "viewport_x": 227,
+      "viewport_y": 198,
+      "projected": {
+        "wx": 388,
+        "wy": 314,
+        "proj_x": 388,
+        "proj_y": 314
+      },
+      "local_asset": "二代/港口布局图/23.卡法 - 见过比利·雷斯吗？他是伊斯兰最有名的航海家和冒险家.png"
+    },
+    {
+      "repo_index": 24,
+      "guide_num": 25,
+      "name": "特纳",
+      "region": "伊斯兰",
+      "lat": 47,
+      "lon": 38,
+      "worldmap_x": 408,
+      "worldmap_y": 283,
+      "viewport_x": 241,
+      "viewport_y": 188,
+      "projected": {
+        "wx": 414,
+        "wy": 299,
+        "proj_x": 414,
+        "proj_y": 299
+      },
+      "local_asset": "二代/港口布局图/24.特纳 - 你知道这个港呀，真是内行.png"
+    },
+    {
+      "repo_index": 25,
+      "guide_num": 26,
+      "name": "特拉比松",
+      "region": "伊斯兰",
+      "lat": 41,
+      "lon": 39,
+      "worldmap_x": 414,
+      "worldmap_y": 327,
+      "viewport_x": 245,
+      "viewport_y": 218,
+      "projected": {
+        "wx": 421,
+        "wy": 345,
+        "proj_x": 421,
+        "proj_y": 343
+      },
+      "local_asset": "二代/港口布局图/25.特拉比松 - 最近航海业发达，从丝绸之路来的商人不多了.png"
+    },
+    {
+      "repo_index": 26,
+      "guide_num": 27,
+      "name": "休达",
+      "region": "北非",
+      "lat": 36,
+      "lon": -5,
+      "worldmap_x": 150,
+      "worldmap_y": 364,
+      "viewport_x": 88,
+      "viewport_y": 242,
+      "projected": {
+        "wx": 150,
+        "wy": 390,
+        "proj_x": 136,
+        "proj_y": 380
+      },
+      "local_asset": "二代/港口布局图/26.休达 - 这个港口以前是伊斯兰势力的最前线，最近才被葡萄牙夺取.png"
+    },
+    {
+      "repo_index": 27,
+      "guide_num": 28,
+      "name": "波尔多",
+      "region": "北欧",
+      "lat": 46,
+      "lon": -1,
+      "worldmap_x": 174,
+      "worldmap_y": 290,
+      "viewport_x": 103,
+      "viewport_y": 193,
+      "projected": {
+        "wx": 164,
+        "wy": 303,
+        "proj_x": 162,
+        "proj_y": 307
+      },
+      "local_asset": "二代/港口布局图/27.波尔多 - 这座城市的左下方是葡萄园，够大吧.png"
+    },
+    {
+      "repo_index": 28,
+      "guide_num": 29,
+      "name": "南特",
+      "region": "北欧",
+      "lat": 48,
+      "lon": -2,
+      "worldmap_x": 168,
+      "worldmap_y": 275,
+      "viewport_x": 99,
+      "viewport_y": 183,
+      "projected": {
+        "wx": 156,
+        "wy": 292,
+        "proj_x": 156,
+        "proj_y": 292
+      },
+      "local_asset": "二代/港口布局图/28.南特 - 最近这里受宗教改革的影响新教徒多起来了.png"
+    },
+    {
+      "repo_index": 29,
+      "guide_num": 30,
+      "name": "伦敦",
+      "region": "北欧",
+      "lat": 52,
+      "lon": 0,
+      "worldmap_x": 180,
+      "worldmap_y": 245,
+      "viewport_x": 106,
+      "viewport_y": 163,
+      "projected": {
+        "wx": 165,
+        "wy": 263,
+        "proj_x": 169,
+        "proj_y": 263
+      },
+      "local_asset": "二代/港口布局图/29.伦敦 - 英国的羊毛运到阿姆斯特丹制成毛织品.png"
+    },
+    {
+      "repo_index": 30,
+      "guide_num": 31,
+      "name": "布里斯托尔",
+      "region": "北欧",
+      "lat": 52,
+      "lon": -3,
+      "worldmap_x": 162,
+      "worldmap_y": 245,
+      "viewport_x": 96,
+      "viewport_y": 163,
+      "projected": {
+        "wx": 149,
+        "wy": 263,
+        "proj_x": 149,
+        "proj_y": 263
+      },
+      "local_asset": "二代/港口布局图/30.布里斯托尔 - 这个港不怎么样，但造船技术还行，不过设备老化造不了好船.png"
+    },
+    {
+      "repo_index": 31,
+      "guide_num": 32,
+      "name": "都柏林",
+      "region": "北欧",
+      "lat": 54,
+      "lon": -6,
+      "worldmap_x": 144,
+      "worldmap_y": 230,
+      "viewport_x": 85,
+      "viewport_y": 153,
+      "projected": {
+        "wx": 132,
+        "wy": 248,
+        "proj_x": 130,
+        "proj_y": 248
+      },
+      "local_asset": "二代/港口布局图/31.都柏林 - 这里的教堂富丽堂皇，大主教也常来.png"
+    },
+    {
+      "repo_index": 32,
+      "guide_num": 33,
+      "name": "安特卫普",
+      "region": "北欧",
+      "lat": 53,
+      "lon": 5,
+      "worldmap_x": 210,
+      "worldmap_y": 238,
+      "viewport_x": 124,
+      "viewport_y": 158,
+      "projected": {
+        "wx": 205,
+        "wy": 258,
+        "proj_x": 201,
+        "proj_y": 256
+      },
+      "local_asset": "二代/港口布局图/32.安特卫普 - 最近这里有活动吧.png"
+    },
+    {
+      "repo_index": 33,
+      "guide_num": 34,
+      "name": "阿母斯特丹",
+      "region": "北欧",
+      "lat": 55,
+      "lon": 6,
+      "worldmap_x": 216,
+      "worldmap_y": 223,
+      "viewport_x": 128,
+      "viewport_y": 148,
+      "projected": {
+        "wx": 213,
+        "wy": 249,
+        "proj_x": 207,
+        "proj_y": 241
+      },
+      "local_asset": "二代/港口布局图/33.阿姆斯特丹 - 这里出售最新的航海用具.png"
+    },
+    {
+      "repo_index": 34,
+      "guide_num": 35,
+      "name": "哥本哈根",
+      "region": "北欧",
+      "lat": 57,
+      "lon": 12,
+      "worldmap_x": 252,
+      "worldmap_y": 208,
+      "viewport_x": 149,
+      "viewport_y": 138,
+      "projected": {
+        "wx": 242,
+        "wy": 226,
+        "proj_x": 246,
+        "proj_y": 226
+      },
+      "local_asset": "二代/港口布局图/34.哥本哈根 - 这座城市造的铠甲是一流的.png"
+    },
+    {
+      "repo_index": 35,
+      "guide_num": 36,
+      "name": "汉堡",
+      "region": "北欧",
+      "lat": 55,
+      "lon": 9,
+      "worldmap_x": 234,
+      "worldmap_y": 223,
+      "viewport_x": 138,
+      "viewport_y": 148,
+      "projected": {
+        "wx": 225,
+        "wy": 245,
+        "proj_x": 227,
+        "proj_y": 241
+      },
+      "local_asset": "二代/港口布局图/35.汉堡 - 沃尔夫博士是著名的军事家，现在专门教授炮术，但他脾气可不好呀.png"
+    },
+    {
+      "repo_index": 36,
+      "guide_num": 37,
+      "name": "奥斯陆",
+      "region": "北欧",
+      "lat": 62,
+      "lon": 10,
+      "worldmap_x": 240,
+      "worldmap_y": 171,
+      "viewport_x": 142,
+      "viewport_y": 114,
+      "projected": {
+        "wx": 237,
+        "wy": 190,
+        "proj_x": 233,
+        "proj_y": 190
+      },
+      "local_asset": "二代/港口布局图/36.奥斯陆 - 这座城市如果加入汉萨同盟，现在就不会如此萧条了.png"
+    },
+    {
+      "repo_index": 37,
+      "guide_num": 38,
+      "name": "斯德哥尔摩",
+      "region": "北欧",
+      "lat": 62,
+      "lon": 19,
+      "worldmap_x": 294,
+      "worldmap_y": 171,
+      "viewport_x": 174,
+      "viewport_y": 114,
+      "projected": {
+        "wx": 291,
+        "wy": 190,
+        "proj_x": 291,
+        "proj_y": 190
+      },
+      "local_asset": "二代/港口布局图/37.斯德哥尔摩 - 本港地处如此遥远的北方却很繁荣，你不觉得奇怪吗.png"
+    },
+    {
+      "repo_index": 38,
+      "guide_num": 39,
+      "name": "卢卑克",
+      "region": "北欧",
+      "lat": 56,
+      "lon": 10,
+      "worldmap_x": 240,
+      "worldmap_y": 216,
+      "viewport_x": 142,
+      "viewport_y": 144,
+      "projected": {
+        "wx": 233,
+        "wy": 234,
+        "proj_x": 233,
+        "proj_y": 234
+      },
+      "local_asset": "二代/港口布局图/38.卢卑克 - 这里有很好的兵器师，能造各种刀剑.png"
+    },
+    {
+      "repo_index": 39,
+      "guide_num": 40,
+      "name": "格但斯克",
+      "region": "北欧",
+      "lat": 56,
+      "lon": 18,
+      "worldmap_x": 288,
+      "worldmap_y": 216,
+      "viewport_x": 170,
+      "viewport_y": 144,
+      "projected": {
+        "wx": 285,
+        "wy": 236,
+        "proj_x": 285,
+        "proj_y": 234
+      },
+      "local_asset": "二代/港口布局图/39.但泽 - 这里市场上腌鱼肉很多.png"
+    },
+    {
+      "repo_index": 40,
+      "guide_num": 41,
+      "name": "里加",
+      "region": "北欧",
+      "lat": 59,
+      "lon": 23,
+      "worldmap_x": 318,
+      "worldmap_y": 193,
+      "viewport_x": 188,
+      "viewport_y": 128,
+      "projected": {
+        "wx": 315,
+        "wy": 212,
+        "proj_x": 317,
+        "proj_y": 212
+      },
+      "local_asset": "二代/港口布局图/40.里加 - 这么偏僻的港口你也知道呀.png"
+    },
+    {
+      "repo_index": 41,
+      "guide_num": 42,
+      "name": "卑尔根",
+      "region": "北欧",
+      "lat": 62,
+      "lon": 4,
+      "worldmap_x": 204,
+      "worldmap_y": 171,
+      "viewport_x": 120,
+      "viewport_y": 114,
+      "projected": {
+        "wx": 208,
+        "wy": 186,
+        "proj_x": 194,
+        "proj_y": 190
+      },
+      "local_asset": "二代/港口布局图/41.卑尔根 - 这一带地形复杂，海岸线弯弯曲曲的.png"
+    },
+    {
+      "repo_index": 42,
+      "guide_num": 43,
+      "name": "加拉卡斯",
+      "region": "亚美利加",
+      "lat": 7,
+      "lon": -72,
+      "worldmap_x": 1908,
+      "worldmap_y": 580,
+      "viewport_x": 1131,
+      "viewport_y": 386,
+      "projected": {
+        "wx": 1863,
+        "wy": 591,
+        "proj_x": 1863,
+        "proj_y": 591
+      },
+      "local_asset": "二代/港口布局图/42.加拉加斯 - 这里是西班牙人的港口.png"
+    },
+    {
+      "repo_index": 43,
+      "guide_num": 44,
+      "name": "喀他基那",
+      "region": "亚美利加",
+      "lat": 6,
+      "lon": -81,
+      "worldmap_x": 1854,
+      "worldmap_y": 588,
+      "viewport_x": 1099,
+      "viewport_y": 392,
+      "projected": {
+        "wx": 1804,
+        "wy": 599,
+        "proj_x": 1804,
+        "proj_y": 599
+      },
+      "local_asset": "二代/港口布局图/43.喀他基那 - 新大陆有的港口黄金很便宜.png"
+    },
+    {
+      "repo_index": 44,
+      "guide_num": 45,
+      "name": "哈瓦那",
+      "region": "亚美利加",
+      "lat": 19,
+      "lon": -87,
+      "worldmap_x": 1818,
+      "worldmap_y": 491,
+      "viewport_x": 1078,
+      "viewport_y": 327,
+      "projected": {
+        "wx": 1766,
+        "wy": 518,
+        "proj_x": 1766,
+        "proj_y": 504
+      },
+      "local_asset": "二代/港口布局图/44.哈瓦那 - 还是这的烟草有名.png"
+    },
+    {
+      "repo_index": 45,
+      "guide_num": 46,
+      "name": "马加里塔",
+      "region": "亚美利加",
+      "lat": 8,
+      "lon": -69,
+      "worldmap_x": 1926,
+      "worldmap_y": 573,
+      "viewport_x": 1142,
+      "viewport_y": 382,
+      "projected": {
+        "wx": 1878,
+        "wy": 584,
+        "proj_x": 1882,
+        "proj_y": 584
+      },
+      "local_asset": "二代/港口布局图/45.马加里塔 - 这个岛不富裕，连特产都没有.png"
+    },
+    {
+      "repo_index": 46,
+      "guide_num": 47,
+      "name": "巴拿马城",
+      "region": "亚美利加",
+      "lat": 5,
+      "lon": -85,
+      "worldmap_x": 1830,
+      "worldmap_y": 595,
+      "viewport_x": 1085,
+      "viewport_y": 396,
+      "projected": {
+        "wx": 1793,
+        "wy": 590,
+        "proj_x": 1779,
+        "proj_y": 606
+      },
+      "local_asset": "二代/港口布局图/46.巴拿马城 - 这里要有运河就方便了.png"
+    },
+    {
+      "repo_index": 47,
+      "guide_num": 48,
+      "name": "波鲁特内罗",
+      "region": "亚美利加",
+      "lat": 6,
+      "lon": -85,
+      "worldmap_x": 1830,
+      "worldmap_y": 588,
+      "viewport_x": 1085,
+      "viewport_y": 392,
+      "projected": {
+        "wx": 1789,
+        "wy": 587,
+        "proj_x": 1779,
+        "proj_y": 599
+      },
+      "local_asset": "二代/港口布局图/47.波鲁特内罗 - 这附近海盗很多，多留神.png"
+    },
+    {
+      "repo_index": 48,
+      "guide_num": 49,
+      "name": "圣多明尼各",
+      "region": "亚美利加",
+      "lat": 13,
+      "lon": -74,
+      "worldmap_x": 1896,
+      "worldmap_y": 536,
+      "viewport_x": 1124,
+      "viewport_y": 357,
+      "projected": {
+        "wx": 1848,
+        "wy": 544,
+        "proj_x": 1850,
+        "proj_y": 548
+      },
+      "local_asset": "二代/港口布局图/48.圣多明哥 - 这座城市是哥伦布的兄弟建造的.png"
+    },
+    {
+      "repo_index": 49,
+      "guide_num": 50,
+      "name": "委拉克路斯",
+      "region": "亚美利加",
+      "lat": 15,
+      "lon": -100,
+      "worldmap_x": 1740,
+      "worldmap_y": 521,
+      "viewport_x": 1031,
+      "viewport_y": 347,
+      "projected": {
+        "wx": 1684,
+        "wy": 529,
+        "proj_x": 1682,
+        "proj_y": 533
+      },
+      "local_asset": "二代/港口布局图/49.委拉克鲁斯 - 这里是新大陆的黄金集散地.png"
+    },
+    {
+      "repo_index": 50,
+      "guide_num": 51,
+      "name": "牙买加",
+      "region": "亚美利加",
+      "lat": 13,
+      "lon": -81,
+      "worldmap_x": 1854,
+      "worldmap_y": 536,
+      "viewport_x": 1099,
+      "viewport_y": 357,
+      "projected": {
+        "wx": 1802,
+        "wy": 556,
+        "proj_x": 1804,
+        "proj_y": 548
+      },
+      "local_asset": "二代/港口布局图/50.牙买加 - 这个岛是哥伦布发现的.png"
+    },
+    {
+      "repo_index": 51,
+      "guide_num": 52,
+      "name": "瓜地马拉",
+      "region": "亚美利加",
+      "lat": 10,
+      "lon": -95,
+      "worldmap_x": 1770,
+      "worldmap_y": 558,
+      "viewport_x": 1049,
+      "viewport_y": 372,
+      "projected": {
+        "wx": 1720,
+        "wy": 550,
+        "proj_x": 1714,
+        "proj_y": 570
+      },
+      "local_asset": "二代/港口布局图/51.危地马拉 - 喂，去过马拉开波吗.png"
+    },
+    {
+      "repo_index": 52,
+      "guide_num": 53,
+      "name": "伯南布哥",
+      "region": "亚美利加",
+      "lat": -11,
+      "lon": -45,
+      "worldmap_x": 2070,
+      "worldmap_y": 715,
+      "viewport_x": 1227,
+      "viewport_y": 476,
+      "projected": {
+        "wx": 2057,
+        "wy": 723,
+        "proj_x": 2037,
+        "proj_y": 723
+      },
+      "local_asset": "二代/港口布局图/52.伯南布哥 - 由于条约的缘故，在南美允许葡萄牙的殖民统治.png"
+    },
+    {
+      "repo_index": 53,
+      "guide_num": 54,
+      "name": "里约热内卢",
+      "region": "亚美利加",
+      "lat": -26,
+      "lon": -50,
+      "worldmap_x": 2040,
+      "worldmap_y": 826,
+      "viewport_x": 1209,
+      "viewport_y": 550,
+      "projected": {
+        "wx": 2005,
+        "wy": 832,
+        "proj_x": 2005,
+        "proj_y": 832
+      },
+      "local_asset": "二代/港口布局图/53.里约热内卢 - 这里是冒险家卡普勒发现的.png"
+    },
+    {
+      "repo_index": 54,
+      "guide_num": 55,
+      "name": "马拉开波",
+      "region": "亚美利加",
+      "lat": 7,
+      "lon": -77,
+      "worldmap_x": 1878,
+      "worldmap_y": 580,
+      "viewport_x": 1113,
+      "viewport_y": 386,
+      "projected": {
+        "wx": 1830,
+        "wy": 597,
+        "proj_x": 1830,
+        "proj_y": 591
+      },
+      "local_asset": "二代/港口布局图/54.马拉开波 - 喂，去过危地马拉吗.png"
+    },
+    {
+      "repo_index": 55,
+      "guide_num": 56,
+      "name": "圣地亚哥",
+      "region": "亚美利加",
+      "lat": 15,
+      "lon": -81,
+      "worldmap_x": 1854,
+      "worldmap_y": 521,
+      "viewport_x": 1099,
+      "viewport_y": 347,
+      "projected": {
+        "wx": 1786,
+        "wy": 523,
+        "proj_x": 1804,
+        "proj_y": 533
+      },
+      "local_asset": "二代/港口布局图/55.圣地亚哥 - 最好身边带着莱姆果汁.png"
+    },
+    {
+      "repo_index": 56,
+      "guide_num": 57,
+      "name": "开云",
+      "region": "亚美利加",
+      "lat": 0,
+      "lon": -56,
+      "worldmap_x": 2004,
+      "worldmap_y": 633,
+      "viewport_x": 1188,
+      "viewport_y": 422,
+      "projected": {
+        "wx": 1970,
+        "wy": 629,
+        "proj_x": 1966,
+        "proj_y": 643
+      },
+      "local_asset": "二代/港口布局图/56.卡宴 - 喂，遭到过怪物袭击吗.png"
+    },
+    {
+      "repo_index": 57,
+      "guide_num": 58,
+      "name": "马德拉韦",
+      "region": "西非",
+      "lat": 33,
+      "lon": -17,
+      "worldmap_x": 77,
+      "worldmap_y": 387,
+      "viewport_x": 45,
+      "viewport_y": 258,
+      "projected": {
+        "wx": 89,
+        "wy": 436,
+        "proj_x": 59,
+        "proj_y": 402
+      },
+      "local_asset": "二代/港口布局图/57.马德拉维 - 这里是葡萄牙人建的甘蔗园.png"
+    },
+    {
+      "repo_index": 58,
+      "guide_num": 59,
+      "name": "圣克鲁斯",
+      "region": "西非",
+      "lat": 28,
+      "lon": -17,
+      "worldmap_x": 77,
+      "worldmap_y": 424,
+      "viewport_x": 45,
+      "viewport_y": 282,
+      "projected": {
+        "wx": 87,
+        "wy": 438,
+        "proj_x": 59,
+        "proj_y": 438
+      },
+      "local_asset": "二代/港口布局图/58.桑塔库鲁兹 - 从这里往南一带多发暴风雨，留神点.png"
+    },
+    {
+      "repo_index": 59,
+      "guide_num": 60,
+      "name": "圣约鲁吉",
+      "region": "西非",
+      "lat": 5,
+      "lon": -2,
+      "worldmap_x": 168,
+      "worldmap_y": 595,
+      "viewport_x": 99,
+      "viewport_y": 396,
+      "projected": {
+        "wx": 156,
+        "wy": 598,
+        "proj_x": 156,
+        "proj_y": 606
+      },
+      "local_asset": "二代/港口布局图/59.圣约鲁吉 - 这个要塞是葡萄牙的据点.png"
+    },
+    {
+      "repo_index": 60,
+      "guide_num": 61,
+      "name": "毕绍",
+      "region": "西非",
+      "lat": 12,
+      "lon": -17,
+      "worldmap_x": 77,
+      "worldmap_y": 543,
+      "viewport_x": 45,
+      "viewport_y": 362,
+      "projected": {
+        "wx": 73,
+        "wy": 543,
+        "proj_x": 59,
+        "proj_y": 555
+      },
+      "local_asset": "二代/港口布局图/60.比绍 - 这个港太靠近欧洲，所以不太兴旺.png"
+    },
+    {
+      "repo_index": 61,
+      "guide_num": 62,
+      "name": "罗安达",
+      "region": "西非",
+      "lat": -8,
+      "lon": 12,
+      "worldmap_x": 252,
+      "worldmap_y": 692,
+      "viewport_x": 149,
+      "viewport_y": 461,
+      "projected": {
+        "wx": 252,
+        "wy": 705,
+        "proj_x": 246,
+        "proj_y": 701
+      },
+      "local_asset": "二代/港口布局图/61.罗安达 - 这是葡萄牙人卷入后新建的港口.png"
+    },
+    {
+      "repo_index": 62,
+      "guide_num": 63,
+      "name": "阿尔金岛",
+      "region": "西非",
+      "lat": 20,
+      "lon": -18,
+      "worldmap_x": 72,
+      "worldmap_y": 484,
+      "viewport_x": 42,
+      "viewport_y": 322,
+      "projected": {
+        "wx": 70,
+        "wy": 489,
+        "proj_x": 52,
+        "proj_y": 497
+      },
+      "local_asset": "二代/港口布局图/62.阿尔金岛 - 发现老鼠时快用老鼠药.png"
+    },
+    {
+      "repo_index": 63,
+      "guide_num": 64,
+      "name": "巴得斯特",
+      "region": "西非",
+      "lat": 14,
+      "lon": -18,
+      "worldmap_x": 72,
+      "worldmap_y": 528,
+      "viewport_x": 42,
+      "viewport_y": 352,
+      "projected": {
+        "wx": 68,
+        "wy": 530,
+        "proj_x": 52,
+        "proj_y": 540
+      },
+      "local_asset": "二代/港口布局图/63.巴瑟斯特 - 这个港上一点就是佛得角.png"
+    },
+    {
+      "repo_index": 64,
+      "guide_num": 65,
+      "name": "廷巴克图",
+      "region": "西非",
+      "lat": 15,
+      "lon": -4,
+      "worldmap_x": 155,
+      "worldmap_y": 521,
+      "viewport_x": 91,
+      "viewport_y": 347,
+      "projected": {
+        "wx": 143,
+        "wy": 533,
+        "proj_x": 143,
+        "proj_y": 533
+      },
+      "local_asset": "二代/港口布局图/64.廷巴克图 - 欢迎来梦幻中的交易城市廷巴克图.png"
+    },
+    {
+      "repo_index": 65,
+      "guide_num": 66,
+      "name": "阿必尚",
+      "region": "西非",
+      "lat": 6,
+      "lon": -5,
+      "worldmap_x": 150,
+      "worldmap_y": 588,
+      "viewport_x": 88,
+      "viewport_y": 392,
+      "projected": {
+        "wx": 136,
+        "wy": 595,
+        "proj_x": 136,
+        "proj_y": 599
+      },
+      "local_asset": "二代/港口布局图/65.阿比让 - 这里往东一点就是圣约鲁吉.png"
+    },
+    {
+      "repo_index": 66,
+      "guide_num": 67,
+      "name": "索法拉",
+      "region": "东非",
+      "lat": -17,
+      "lon": 35,
+      "worldmap_x": 390,
+      "worldmap_y": 759,
+      "viewport_x": 231,
+      "viewport_y": 506,
+      "projected": {
+        "wx": 391,
+        "wy": 771,
+        "proj_x": 395,
+        "proj_y": 767
+      },
+      "local_asset": "二代/港口布局图/66.索法拉 - 这里由于印度洋沿岸贸易，欧洲人来之前就很繁荣了.png"
+    },
+    {
+      "repo_index": 67,
+      "guide_num": 68,
+      "name": "马林迪",
+      "region": "东非",
+      "lat": -3,
+      "lon": 39,
+      "worldmap_x": 414,
+      "worldmap_y": 655,
+      "viewport_x": 245,
+      "viewport_y": 436,
+      "projected": {
+        "wx": 417,
+        "wy": 664,
+        "proj_x": 421,
+        "proj_y": 664
+      },
+      "local_asset": "二代/港口布局图/67.马林迪 - 这里是威斯克·达·伽马到过的港口之一.png"
+    },
+    {
+      "repo_index": 68,
+      "guide_num": 69,
+      "name": "摩加迪休",
+      "region": "东非",
+      "lat": 3,
+      "lon": 45,
+      "worldmap_x": 450,
+      "worldmap_y": 610,
+      "viewport_x": 266,
+      "viewport_y": 406,
+      "projected": {
+        "wx": 456,
+        "wy": 615,
+        "proj_x": 460,
+        "proj_y": 621
+      },
+      "local_asset": "二代/港口布局图/68.摩加迪沙 - 从这往南的一带海岸很有名.png"
+    },
+    {
+      "repo_index": 69,
+      "guide_num": 70,
+      "name": "蒙巴萨",
+      "region": "东非",
+      "lat": -4,
+      "lon": 39,
+      "worldmap_x": 414,
+      "worldmap_y": 662,
+      "viewport_x": 245,
+      "viewport_y": 441,
+      "projected": {
+        "wx": 419,
+        "wy": 670,
+        "proj_x": 421,
+        "proj_y": 672
+      },
+      "local_asset": "二代/港口布局图/69.蒙巴萨岛 - 想要送女人些礼物的话，在这里买些土产吧.png"
+    },
+    {
+      "repo_index": 70,
+      "guide_num": 71,
+      "name": "莫三比克",
+      "region": "东非",
+      "lat": -13,
+      "lon": 40,
+      "worldmap_x": 420,
+      "worldmap_y": 729,
+      "viewport_x": 249,
+      "viewport_y": 486,
+      "projected": {
+        "wx": 421,
+        "wy": 737,
+        "proj_x": 427,
+        "proj_y": 737
+      },
+      "local_asset": "二代/港口布局图/70.莫桑比克 - 在荒郊走来走去白费时间.png"
+    },
+    {
+      "repo_index": 71,
+      "guide_num": 72,
+      "name": "刻里马纳",
+      "region": "东非",
+      "lat": -15,
+      "lon": 36,
+      "worldmap_x": 396,
+      "worldmap_y": 744,
+      "viewport_x": 234,
+      "viewport_y": 496,
+      "projected": {
+        "wx": 399,
+        "wy": 750,
+        "proj_x": 401,
+        "proj_y": 752
+      },
+      "local_asset": "二代/港口布局图/71.克利马内 - 人情没用，还是投资吧.png"
+    },
+    {
+      "repo_index": 72,
+      "guide_num": 73,
+      "name": "亚丁",
+      "region": "中东",
+      "lat": 13,
+      "lon": 46,
+      "worldmap_x": 456,
+      "worldmap_y": 536,
+      "viewport_x": 270,
+      "viewport_y": 357,
+      "projected": {
+        "wx": 470,
+        "wy": 552,
+        "proj_x": 466,
+        "proj_y": 548
+      },
+      "local_asset": "二代/港口布局图/72.亚丁 - 很久以前中国人率大舰队来过这里.png"
+    },
+    {
+      "repo_index": 73,
+      "guide_num": 74,
+      "name": "根布龙",
+      "region": "中东",
+      "lat": 26,
+      "lon": 56,
+      "worldmap_x": 516,
+      "worldmap_y": 439,
+      "viewport_x": 305,
+      "viewport_y": 292,
+      "projected": {
+        "wx": 531,
+        "wy": 453,
+        "proj_x": 531,
+        "proj_y": 453
+      },
+      "local_asset": "二代/港口布局图/73.根布龙 - 这个港由葡萄牙人阿布奎基占据.png"
+    },
+    {
+      "repo_index": 74,
+      "guide_num": 75,
+      "name": "马沙华",
+      "region": "中东",
+      "lat": 15,
+      "lon": 41,
+      "worldmap_x": 426,
+      "worldmap_y": 521,
+      "viewport_x": 252,
+      "viewport_y": 347,
+      "projected": {
+        "wx": 432,
+        "wy": 535,
+        "proj_x": 434,
+        "proj_y": 533
+      },
+      "local_asset": "二代/港口布局图/74.马沙华 - 听说以前这一带不信奉伊斯兰教.png"
+    },
+    {
+      "repo_index": 75,
+      "guide_num": 76,
+      "name": "开罗",
+      "region": "中东",
+      "lat": 29,
+      "lon": 33,
+      "worldmap_x": 378,
+      "worldmap_y": 417,
+      "viewport_x": 224,
+      "viewport_y": 278,
+      "projected": {
+        "wx": 382,
+        "wy": 431,
+        "proj_x": 382,
+        "proj_y": 431
+      },
+      "local_asset": "二代/港口布局图/75.开罗 - 是来参观金字塔的吧.png"
+    },
+    {
+      "repo_index": 76,
+      "guide_num": 77,
+      "name": "巴斯拉",
+      "region": "中东",
+      "lat": 30,
+      "lon": 48,
+      "worldmap_x": 468,
+      "worldmap_y": 409,
+      "viewport_x": 277,
+      "viewport_y": 272,
+      "projected": {
+        "wx": 477,
+        "wy": 424,
+        "proj_x": 479,
+        "proj_y": 424
+      },
+      "local_asset": "二代/港口布局图/76.巴斯拉 - 从这里往里走是巴格达，但水路去不了所以跟你说没用.png"
+    },
+    {
+      "repo_index": 77,
+      "guide_num": 78,
+      "name": "麦加",
+      "region": "中东",
+      "lat": 21,
+      "lon": 39,
+      "worldmap_x": 414,
+      "worldmap_y": 476,
+      "viewport_x": 245,
+      "viewport_y": 317,
+      "projected": {
+        "wx": 421,
+        "wy": 489,
+        "proj_x": 421,
+        "proj_y": 489
+      },
+      "local_asset": "二代/港口布局图/77.麦加 - 这里是伊斯兰的先知穆罕默德的出生地.png"
+    },
+    {
+      "repo_index": 78,
+      "guide_num": 79,
+      "name": "卡塔尔",
+      "region": "中东",
+      "lat": 25,
+      "lon": 53,
+      "worldmap_x": 498,
+      "worldmap_y": 446,
+      "viewport_x": 295,
+      "viewport_y": 297,
+      "projected": {
+        "wx": 517,
+        "wy": 462,
+        "proj_x": 511,
+        "proj_y": 460
+      },
+      "local_asset": "二代/港口布局图/78.卡塔尔 - 几时才能下雨呀.png"
+    },
+    {
+      "repo_index": 79,
+      "guide_num": 80,
+      "name": "设拉福",
+      "region": "中东",
+      "lat": 26,
+      "lon": 53,
+      "worldmap_x": 498,
+      "worldmap_y": 439,
+      "viewport_x": 295,
+      "viewport_y": 292,
+      "projected": {
+        "wx": 511,
+        "wy": 451,
+        "proj_x": 511,
+        "proj_y": 453
+      },
+      "local_asset": "二代/港口布局图/79.社拉夫 - 想不到这座城市如此充满着活力.png"
+    },
+    {
+      "repo_index": 80,
+      "guide_num": 81,
+      "name": "马斯开特",
+      "region": "中东",
+      "lat": 24,
+      "lon": 58,
+      "worldmap_x": 528,
+      "worldmap_y": 454,
+      "viewport_x": 313,
+      "viewport_y": 302,
+      "projected": {
+        "wx": 544,
+        "wy": 459,
+        "proj_x": 544,
+        "proj_y": 467
+      },
+      "local_asset": "二代/港口布局图/80.马斯喀特 - 好有趣的地名.png"
+    },
+    {
+      "repo_index": 81,
+      "guide_num": 82,
+      "name": "迪普",
+      "region": "印度",
+      "lat": 25,
+      "lon": 66,
+      "worldmap_x": 576,
+      "worldmap_y": 446,
+      "viewport_x": 341,
+      "viewport_y": 297,
+      "projected": {
+        "wx": 592,
+        "wy": 468,
+        "proj_x": 596,
+        "proj_y": 460
+      },
+      "local_asset": "二代/港口布局图/81.第乌 - 这一带古代文明很繁荣.png"
+    },
+    {
+      "repo_index": 82,
+      "guide_num": 83,
+      "name": "柯钦",
+      "region": "印度",
+      "lat": 10,
+      "lon": 75,
+      "worldmap_x": 630,
+      "worldmap_y": 558,
+      "viewport_x": 373,
+      "viewport_y": 372,
+      "projected": {
+        "wx": 656,
+        "wy": 566,
+        "proj_x": 654,
+        "proj_y": 570
+      },
+      "local_asset": "二代/港口布局图/82.柯钦 - 这座商馆是威斯克·达·伽马开的.png"
+    },
+    {
+      "repo_index": 83,
+      "guide_num": 84,
+      "name": "锡兰",
+      "region": "印度",
+      "lat": 8,
+      "lon": 79,
+      "worldmap_x": 654,
+      "worldmap_y": 573,
+      "viewport_x": 387,
+      "viewport_y": 382,
+      "projected": {
+        "wx": 680,
+        "wy": 584,
+        "proj_x": 680,
+        "proj_y": 584
+      },
+      "local_asset": "二代/港口布局图/83.锡兰 - 海上贸易使这里一直很繁荣.png"
+    },
+    {
+      "repo_index": 84,
+      "guide_num": 85,
+      "name": "安波那",
+      "region": "东南亚",
+      "lat": -1,
+      "lon": 125,
+      "worldmap_x": 930,
+      "worldmap_y": 640,
+      "viewport_x": 551,
+      "viewport_y": 426,
+      "projected": {
+        "wx": 977,
+        "wy": 650,
+        "proj_x": 977,
+        "proj_y": 650
+      },
+      "local_asset": "二代/港口布局图/84.安波那 - 英国和荷兰好像关系紧张.png"
+    },
+    {
+      "repo_index": 85,
+      "guide_num": 86,
+      "name": "果阿",
+      "region": "印度",
+      "lat": 14,
+      "lon": 73,
+      "worldmap_x": 618,
+      "worldmap_y": 528,
+      "viewport_x": 366,
+      "viewport_y": 352,
+      "projected": {
+        "wx": 631,
+        "wy": 540,
+        "proj_x": 641,
+        "proj_y": 540
+      },
+      "local_asset": "二代/港口布局图/85.果阿 - 阿布奎基占据了这个港.png"
+    },
+    {
+      "repo_index": 86,
+      "guide_num": 87,
+      "name": "麻六甲",
+      "region": "东南亚",
+      "lat": 4,
+      "lon": 101,
+      "worldmap_x": 786,
+      "worldmap_y": 603,
+      "viewport_x": 466,
+      "viewport_y": 402,
+      "projected": {
+        "wx": 828,
+        "wy": 617,
+        "proj_x": 822,
+        "proj_y": 613
+      },
+      "local_asset": "二代/港口布局图/86.马六甲 - 这是东南亚最大的交易港.png"
+    },
+    {
+      "repo_index": 87,
+      "guide_num": 88,
+      "name": "德那第",
+      "region": "东南亚",
+      "lat": 2,
+      "lon": 125,
+      "worldmap_x": 930,
+      "worldmap_y": 618,
+      "viewport_x": 551,
+      "viewport_y": 412,
+      "projected": {
+        "wx": 979,
+        "wy": 632,
+        "proj_x": 977,
+        "proj_y": 628
+      },
+      "local_asset": "二代/港口布局图/87.德那第 - 这一带叫做香料诸岛.png"
+    },
+    {
+      "repo_index": 88,
+      "guide_num": 89,
+      "name": "班达",
+      "region": "东南亚",
+      "lat": -2,
+      "lon": 128,
+      "worldmap_x": 948,
+      "worldmap_y": 648,
+      "viewport_x": 562,
+      "viewport_y": 432,
+      "projected": {
+        "wx": 997,
+        "wy": 657,
+        "proj_x": 997,
+        "proj_y": 657
+      },
+      "local_asset": "二代/港口布局图/88.班达 - 喂，去集市了吗？肉豆蔻很便宜.png"
+    },
+    {
+      "repo_index": 89,
+      "guide_num": 90,
+      "name": "德利",
+      "region": "东南亚",
+      "lat": -5,
+      "lon": 125,
+      "worldmap_x": 930,
+      "worldmap_y": 670,
+      "viewport_x": 551,
+      "viewport_y": 446,
+      "projected": {
+        "wx": 973,
+        "wy": 669,
+        "proj_x": 977,
+        "proj_y": 679
+      },
+      "local_asset": "二代/港口布局图/89.帝汶 - 这的丁香产量与德那第齐名.png"
+    },
+    {
+      "repo_index": 90,
+      "guide_num": 91,
+      "name": "帕塞",
+      "region": "东南亚",
+      "lat": 4,
+      "lon": 96,
+      "worldmap_x": 756,
+      "worldmap_y": 603,
+      "viewport_x": 448,
+      "viewport_y": 402,
+      "projected": {
+        "wx": 788,
+        "wy": 613,
+        "proj_x": 790,
+        "proj_y": 613
+      },
+      "local_asset": "二代/港口布局图/90.帕塞 - 热带雨林非常茂盛.png"
+    },
+    {
+      "repo_index": 91,
+      "guide_num": 92,
+      "name": "巽他",
+      "region": "东南亚",
+      "lat": -3,
+      "lon": 106,
+      "worldmap_x": 816,
+      "worldmap_y": 655,
+      "viewport_x": 483,
+      "viewport_y": 436,
+      "projected": {
+        "wx": 852,
+        "wy": 668,
+        "proj_x": 854,
+        "proj_y": 664
+      },
+      "local_asset": "二代/港口布局图/91.巽他 - 别挤我！已经够热了.png"
+    },
+    {
+      "repo_index": 92,
+      "guide_num": 93,
+      "name": "科泽科德",
+      "region": "印度",
+      "lat": 12,
+      "lon": 74,
+      "worldmap_x": 623,
+      "worldmap_y": 543,
+      "viewport_x": 369,
+      "viewport_y": 362,
+      "projected": {
+        "wx": 647,
+        "wy": 555,
+        "proj_x": 647,
+        "proj_y": 555
+      },
+      "local_asset": "二代/港口布局图/92.卡利卡特 - 这的丁香是从班达运来的.png"
+    },
+    {
+      "repo_index": 93,
+      "guide_num": 94,
+      "name": "邦加",
+      "region": "东南亚",
+      "lat": 1,
+      "lon": 105,
+      "worldmap_x": 810,
+      "worldmap_y": 625,
+      "viewport_x": 480,
+      "viewport_y": 416,
+      "projected": {
+        "wx": 848,
+        "wy": 641,
+        "proj_x": 848,
+        "proj_y": 635
+      },
+      "local_asset": "二代/港口布局图/93.邦加 - 怎么样？.png"
+    },
+    {
+      "repo_index": 94,
+      "guide_num": 95,
+      "name": "泉州",
+      "region": "东亚",
+      "lat": 26,
+      "lon": 119,
+      "worldmap_x": 893,
+      "worldmap_y": 439,
+      "viewport_x": 529,
+      "viewport_y": 292,
+      "projected": {
+        "wx": 948,
+        "wy": 449,
+        "proj_x": 938,
+        "proj_y": 453
+      },
+      "local_asset": "二代/港口布局图/94.泉州 - 这里是中国最大的交易港.png"
+    },
+    {
+      "repo_index": 95,
+      "guide_num": 96,
+      "name": "澳门",
+      "region": "东亚",
+      "lat": 23,
+      "lon": 114,
+      "worldmap_x": 864,
+      "worldmap_y": 461,
+      "viewport_x": 512,
+      "viewport_y": 307,
+      "projected": {
+        "wx": 906,
+        "wy": 475,
+        "proj_x": 906,
+        "proj_y": 475
+      },
+      "local_asset": "二代/港口布局图/95.澳门 - 这个港有女人喜欢的东西.png"
+    },
+    {
+      "repo_index": 96,
+      "guide_num": 97,
+      "name": "河内",
+      "region": "东亚",
+      "lat": 21,
+      "lon": 105,
+      "worldmap_x": 810,
+      "worldmap_y": 476,
+      "viewport_x": 480,
+      "viewport_y": 317,
+      "projected": {
+        "wx": 848,
+        "wy": 489,
+        "proj_x": 848,
+        "proj_y": 489
+      },
+      "local_asset": "二代/港口布局图/96.河内 - 这个港号称海上丝绸之路.png"
+    },
+    {
+      "repo_index": 97,
+      "guide_num": 98,
+      "name": "长安",
+      "region": "东亚",
+      "lat": 35,
+      "lon": 110,
+      "worldmap_x": 840,
+      "worldmap_y": 372,
+      "viewport_x": 498,
+      "viewport_y": 248,
+      "projected": {
+        "wx": 880,
+        "wy": 387,
+        "proj_x": 880,
+        "proj_y": 387
+      },
+      "local_asset": "二代/港口布局图/97.长安 - 古代中国汉高祖刘邦当年建都于此.png"
+    },
+    {
+      "repo_index": 98,
+      "guide_num": 99,
+      "name": "界",
+      "region": "东亚",
+      "lat": 35,
+      "lon": 135,
+      "worldmap_x": 990,
+      "worldmap_y": 372,
+      "viewport_x": 587,
+      "viewport_y": 248,
+      "projected": {
+        "wx": 1024,
+        "wy": 385,
+        "proj_x": 1042,
+        "proj_y": 387
+      },
+      "local_asset": "二代/港口布局图/98.界 - 这的商业活动非常频繁.png"
+    },
+    {
+      "repo_index": 99,
+      "guide_num": 100,
+      "name": "长崎",
+      "region": "东亚",
+      "lat": 33,
+      "lon": 129,
+      "worldmap_x": 954,
+      "worldmap_y": 387,
+      "viewport_x": 565,
+      "viewport_y": 258,
+      "projected": {
+        "wx": 999,
+        "wy": 400,
+        "proj_x": 1003,
+        "proj_y": 402
+      },
+      "local_asset": "二代/港口布局图/99.长崎 - 啊，洋人先生！欢迎.png"
+    }
+  ]
+}

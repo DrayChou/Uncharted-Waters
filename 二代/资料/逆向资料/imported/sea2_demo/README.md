@@ -10,8 +10,11 @@
 
 ## 目录说明
 
-- `docs/`：原项目中的 Markdown 说明文档副本
+- `sea2_demo-CLAUDE.md`：原项目对格式、算法、已完成 / 未完成内容的总说明
+- `scripts/`：原项目脚本树，包含解压、提取、渲染、反汇编、拓扑分析与 experiments
+- `docs/`：原项目中的 Markdown / 反汇编说明文档副本
 - `game_data/`：原项目导出的结构化 JSON 数据副本
+- `ROADMAP.md`：原项目的阶段路线图
 
 ## 使用边界
 
@@ -24,5 +27,6 @@
 
 - `README.md`
 - `复刻可用数据清单.md`
+- `逆向算法与提取脚本总览.md`
 - `manifest.json`
 - `generated/`

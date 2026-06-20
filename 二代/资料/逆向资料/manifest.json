@@ -182,6 +182,61 @@
       "path": "assets/sea2_demo/charts/",
       "confidence": "medium",
       "purpose": "剧情关系与结构图"
+    },
+    {
+      "path": "逆向算法与提取脚本总览.md",
+      "confidence": "high",
+      "purpose": "解压、提取、渲染、文本解码、事件CG与拓扑分析脚本索引"
+    },
+    {
+      "path": "imported/sea2_demo/sea2_demo-CLAUDE.md",
+      "confidence": "high",
+      "purpose": "原项目格式规范、算法说明与研究状态总览"
+    },
+    {
+      "path": "imported/sea2_demo/docs/archive/REVERSE_ENGINEERING_NOTES.md",
+      "confidence": "high",
+      "purpose": "事件CG反汇编笔记"
+    },
+    {
+      "path": "imported/sea2_demo/docs/main_exe_decoder_disasm.txt",
+      "confidence": "high",
+      "purpose": "Main.exe相关解码器反汇编全文"
+    },
+    {
+      "path": "imported/sea2_demo/docs/RESEARCH_WORKFLOW.md",
+      "confidence": "medium",
+      "purpose": "原项目研究顺序与工作流"
+    },
+    {
+      "path": "imported/sea2_demo/docs/RESEARCH_PURPOSE.md",
+      "confidence": "medium",
+      "purpose": "原项目研究目的说明"
+    },
+    {
+      "path": "imported/sea2_demo/docs/PHASE3_DESIGN_DOC.md",
+      "confidence": "medium",
+      "purpose": "原项目从逆向到新设计稿的提炼"
+    },
+    {
+      "path": "imported/sea2_demo/docs/PHASE4_MVP_SPEC.md",
+      "confidence": "medium",
+      "purpose": "原项目MVP规格说明"
+    },
+    {
+      "path": "imported/sea2_demo/ROADMAP.md",
+      "confidence": "medium",
+      "purpose": "原项目路线图"
+    },
+    {
+      "path": "imported/sea2_demo/scripts/",
+      "confidence": "high",
+      "purpose": "58个原始脚本，覆盖解压、提取、渲染、反汇编、拓扑分析与实验"
+    },
+    {
+      "path": "imported/sea2_demo/scripts/experiments/",
+      "confidence": "medium",
+      "purpose": "失败尝试与历史实验记录，适合避免重复踩坑"
     }
   ]
 }

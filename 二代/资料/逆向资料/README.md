@@ -24,7 +24,7 @@
 | [逆向算法与提取脚本总览.md](逆向算法与提取脚本总览.md) | 汇总解压、提取、渲染、文本解码、事件 CG 与拓扑分析脚本 |
 | [脚本可移植改造清单.md](脚本可移植改造清单.md) | 逐步把脚本从作者本机环境迁成你的可维护工具链 |
 | [最小工具包设计.md](最小工具包设计.md) | 从 58 个脚本里提炼复刻真正需要的最小生成链 |
-| [toolkit/](toolkit/) | 已起好的最小工具包骨架，包含配置、LS11 解压、DAT 提取、文本解码、doctor 检查、基础测试与核心渲染模块 |
+| [toolkit/](toolkit/) | 已起好的最小工具包骨架，包含配置、LS11 解压、DAT 提取、文本解码、doctor 检查、基础测试，以及 Portchip / Portmap / Worldmap / 头像 / 道具 / 字体渲染模块 |
 | [imported/sea2_demo/](imported/sea2_demo/) | 选定导入的原始 Markdown / JSON / 脚本文件，保留来源路径语义 |
 | [assets/sea2_demo/](assets/sea2_demo/) | 从原仓库挑出的高价值图片素材：头像、道具、港口原图、船只、世界图、总览图 |
 | [generated/](generated/) | 为本仓库生成的 CSV / JSON 等二次整理文件 |

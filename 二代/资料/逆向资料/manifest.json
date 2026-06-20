@@ -297,6 +297,21 @@
       "path": "toolkit/tests/",
       "confidence": "high",
       "purpose": "工具包基础单元测试"
+    },
+    {
+      "path": "toolkit/uw2toolkit/render/kao.py",
+      "confidence": "high",
+      "purpose": "头像与道具图标渲染模块"
+    },
+    {
+      "path": "toolkit/uw2toolkit/render/font.py",
+      "confidence": "high",
+      "purpose": "1.pat/2.pat 字模渲染模块"
+    },
+    {
+      "path": "toolkit/tests/test_render_kao.py",
+      "confidence": "high",
+      "purpose": "Kao 渲染基础单元测试"
     }
   ]
 }

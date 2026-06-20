@@ -9,6 +9,8 @@ from .config import ToolkitConfig
 from .dat_extract import extract_phase1
 from .doctor import run_doctor, summarize
 from .ls11 import decode_file, write_parts
+from .render.font import render_fonts
+from .render.kao import render_items, render_portraits
 from .render.portchip import save_atlas_sheets
 from .render.portmap import render_all_portmaps
 from .render.worldmap import render_worldmaps
@@ -38,6 +40,21 @@ def cmd_inventory_lzw(args: argparse.Namespace) -> None:
 def cmd_render_portchip(args: argparse.Namespace) -> None:
     out = save_atlas_sheets(args.parts_dir, args.out_dir)
     print(f"rendered atlases -> {out}")
+
+
+def cmd_render_portraits(args: argparse.Namespace) -> None:
+    out = render_portraits(args.parts_dir, args.out_dir)
+    print(f"rendered portraits -> {out}")
+
+
+def cmd_render_items(args: argparse.Namespace) -> None:
+    out = render_items(args.parts_dir, args.out_dir)
+    print(f"rendered items -> {out}")
+
+
+def cmd_render_fonts(args: argparse.Namespace) -> None:
+    out = render_fonts(args.raw_dir, args.out_dir)
+    print(f"rendered fonts -> {out}")
 
 
 def cmd_render_portmap(args: argparse.Namespace) -> None:
@@ -88,6 +105,21 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument('--parts-dir', default=str(cfg.output_dir / 'lzw_parts' / 'Portchip'))
     p.add_argument('--out-dir', default=str(cfg.output_dir / 'portchip'))
     p.set_defaults(func=cmd_render_portchip)
+
+    p = sub.add_parser('render-portraits')
+    p.add_argument('--parts-dir', default=str(cfg.output_dir / 'lzw_parts' / 'Kao'))
+    p.add_argument('--out-dir', default=str(cfg.output_dir / 'portraits'))
+    p.set_defaults(func=cmd_render_portraits)
+
+    p = sub.add_parser('render-items')
+    p.add_argument('--parts-dir', default=str(cfg.output_dir / 'lzw_parts' / 'Kao'))
+    p.add_argument('--out-dir', default=str(cfg.output_dir / 'items'))
+    p.set_defaults(func=cmd_render_items)
+
+    p = sub.add_parser('render-fonts')
+    p.add_argument('--raw-dir', default=str(cfg.raw_dir))
+    p.add_argument('--out-dir', default=str(cfg.output_dir / 'fonts'))
+    p.set_defaults(func=cmd_render_fonts)
 
     p = sub.add_parser('render-portmap')
     p.add_argument('--portmap-dir', default=str(cfg.output_dir / 'lzw_parts' / 'Portmap'))

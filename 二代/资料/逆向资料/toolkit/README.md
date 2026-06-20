@@ -13,6 +13,8 @@
 - `uw2toolkit.render.portchip` — Portchip atlas 渲染
 - `uw2toolkit.render.portmap` — Portmap 港口图渲染
 - `uw2toolkit.render.worldmap` — Worldmap v1 / v2 解码与渲染
+- `uw2toolkit.render.kao` — 人物头像 / 道具图标渲染
+- `uw2toolkit.render.font` — 1.pat / 2.pat 字模渲染
 - `uw2toolkit.cli` — CLI 入口
 - `uw2toolkit.doctor` — 环境 / 依赖 / 原始资源就绪检查
 - `tests/` — 基础单元测试
@@ -73,6 +75,9 @@ pip install unicorn capstone pyte
 python -m uw2toolkit.cli ls11-decode raw/Koukai2/Kao.lzw output/lzw_parts/Kao
 python -m uw2toolkit.cli inventory-lzw
 python -m uw2toolkit.cli render-portchip
+python -m uw2toolkit.cli render-portraits
+python -m uw2toolkit.cli render-items
+python -m uw2toolkit.cli render-fonts
 python -m uw2toolkit.cli render-portmap
 python -m uw2toolkit.cli render-worldmap --mode v2
 python -m uw2toolkit.cli extract-phase1

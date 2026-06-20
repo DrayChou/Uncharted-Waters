@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uw2toolkit"
+version = "0.1.0"
+description = "Minimal extraction toolkit for Uncharted Waters II reverse-engineered assets"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "Pillow>=10.0"
+]
+
+[project.optional-dependencies]
+research = [
+  "unicorn>=2.0",
+  "capstone>=5.0",
+  "pyte>=0.8"
+]
+
+[project.scripts]
+uw2tool = "uw2toolkit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uw2toolkit*"]

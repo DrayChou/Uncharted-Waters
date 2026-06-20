@@ -21,6 +21,10 @@ Pods/
 *.orig
 .svn
 
+# Python
+__pycache__/
+*.pyc
+
 # Other
 *~
 .DS_Store

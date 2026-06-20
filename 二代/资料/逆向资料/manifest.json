@@ -262,6 +262,31 @@
       "path": "generated/script_portability_matrix.csv",
       "confidence": "high",
       "purpose": "核心脚本可移植优先级矩阵"
+    },
+    {
+      "path": "toolkit/README.md",
+      "confidence": "high",
+      "purpose": "最小工具包骨架说明与使用示例"
+    },
+    {
+      "path": "toolkit/pyproject.toml",
+      "confidence": "high",
+      "purpose": "工具包打包配置与依赖声明"
+    },
+    {
+      "path": "toolkit/uw2toolkit/",
+      "confidence": "high",
+      "purpose": "最小工具包源码，含配置、LS11解压、DAT提取、文本解码和核心渲染模块"
+    },
+    {
+      "path": "toolkit/raw/Koukai2/.gitkeep",
+      "confidence": "high",
+      "purpose": "原始输入目录占位"
+    },
+    {
+      "path": "toolkit/output/.gitkeep",
+      "confidence": "high",
+      "purpose": "默认输出目录占位"
     }
   ]
 }

@@ -237,6 +237,31 @@
       "path": "imported/sea2_demo/scripts/experiments/",
       "confidence": "medium",
       "purpose": "失败尝试与历史实验记录，适合避免重复踩坑"
+    },
+    {
+      "path": "脚本可移植改造清单.md",
+      "confidence": "high",
+      "purpose": "把脚本从作者本机环境迁移到你自己的工具链的步骤清单"
+    },
+    {
+      "path": "最小工具包设计.md",
+      "confidence": "high",
+      "purpose": "从58个脚本提炼最小生成链的架构设计"
+    },
+    {
+      "path": "generated/script_imports_summary.json",
+      "confidence": "high",
+      "purpose": "脚本依赖与绝对路径扫描摘要"
+    },
+    {
+      "path": "generated/script_absolute_path_hits.csv",
+      "confidence": "high",
+      "purpose": "脚本内绝对路径命中明细"
+    },
+    {
+      "path": "generated/script_portability_matrix.csv",
+      "confidence": "high",
+      "purpose": "核心脚本可移植优先级矩阵"
     }
   ]
 }

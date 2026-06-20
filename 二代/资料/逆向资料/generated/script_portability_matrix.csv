@@ -1,0 +1,16 @@
+script,portability,main_blocker,deps,migration_note
+ls11_decode.py,high,none,stdlib only,keep as core decompressor
+inventory_lzw.py,medium,absolute raw dir,stdlib only,replace SRC with configurable raw dir
+render_portchip_v2.py,high,none if output prepared,"numpy,Pillow",keep as atlas renderer
+render_portmap_v2.py,medium,Chip_no.dat absolute path,"numpy,Pillow",inject chip_no path via config/cli
+render_worldmap_v1.py,high,none if Data1/Worldmap parts prepared,"numpy,Pillow",keep as first-pass world renderer
+render_worldmap_v2.py,high,depends on v1 outputs/parts,"numpy,Pillow",keep as production world renderer
+extract_dat_phase1.py,medium,absolute raw dir,numpy,convert to extractor subcommands
+decode_text.py,medium,absolute raw dir + KoeiCht.txt path,stdlib only,make charmap path configurable
+extract_messages.py,medium,absolute Message.dat path,stdlib only,fold into text extractor
+extract_ships.py,medium,depends on raw parts and charmap quality,stdlib only,keep as research extractor
+decode_eventcg.py,low,absolute EXE/data paths + unicorn runtime,"unicorn,Pillow",research-only until API stabilized
+decode_eventcg_vram.py,low,absolute EXE/data paths + unicorn runtime,"unicorn,Pillow",research-only
+disasm_exe.py,medium,absolute Main.exe path,capstone,move under research tools
+scan_ls11_in_exe.py,medium,absolute Main.exe path,capstone,move under research tools
+sndt_disasm.py,low,absolute raw dir,stdlib only,"research-only, not toolkit v1"

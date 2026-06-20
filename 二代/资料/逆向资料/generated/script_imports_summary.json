@@ -1,0 +1,397 @@
+{
+  "script_count": 58,
+  "scripts_with_absolute_paths": [
+    "analyze_joao_topology_gaps.py",
+    "analyze_sndt_cc_roles.py",
+    "analyze_sndt_motif_text_map.py",
+    "analyze_sndt_motifs.py",
+    "build_sndt_lab.py",
+    "dbg_driver.py",
+    "decode_eventcg.py",
+    "decode_eventcg_vram.py",
+    "decode_text.py",
+    "disasm_exe.py",
+    "disasm_joao_control_layer.py",
+    "experiments/decode_bitlzss.py",
+    "experiments/decode_ls11.py",
+    "experiments/decode_lzw.py",
+    "experiments/render_kao.py",
+    "experiments/render_kao_v2.py",
+    "experiments/render_kao_v3.py",
+    "experiments/visualize_decoded.py",
+    "export_sndt_topology.py",
+    "export_sndt_topology_v0_motif.py",
+    "extract_dat_phase1.py",
+    "extract_messages.py",
+    "extract_remaining_dats.py",
+    "extract_sndt_motif_records.py",
+    "extract_sndt_short_text_motifs.py",
+    "inventory_lzw.py",
+    "render_font_v1.py",
+    "render_portmap_v2.py",
+    "scan_ls11_in_exe.py",
+    "sndt_disasm.py"
+  ],
+  "absolute_path_hit_count": 40,
+  "imports_by_script": {
+    "analyze_joao_control_candidates.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib",
+      "sndt_disasm",
+      "sys"
+    ],
+    "analyze_joao_control_edges.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "analyze_joao_gap_patterns.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "analyze_joao_topology_gaps.py": [
+      "__future__",
+      "decode_text",
+      "json",
+      "pathlib",
+      "sndt_disasm",
+      "struct",
+      "sys"
+    ],
+    "analyze_sndt_cc_roles.py": [
+      "__future__",
+      "collections",
+      "decode_text",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "analyze_sndt_motif_text_map.py": [
+      "__future__",
+      "collections",
+      "decode_text",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "analyze_sndt_motifs.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib",
+      "struct"
+    ],
+    "analyze_sndt_selector_roles.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "build_sndt_lab.py": [
+      "__future__",
+      "dataclasses",
+      "json",
+      "pathlib",
+      "struct"
+    ],
+    "dbg_driver.py": [
+      "fcntl",
+      "os",
+      "pty",
+      "pyte",
+      "struct",
+      "termios",
+      "threading",
+      "time"
+    ],
+    "decode_eventcg.py": [
+      "PIL",
+      "pathlib",
+      "struct",
+      "sys",
+      "unicorn"
+    ],
+    "decode_eventcg_vram.py": [
+      "PIL",
+      "pathlib",
+      "struct",
+      "sys",
+      "unicorn"
+    ],
+    "decode_text.py": [
+      "pathlib",
+      "struct",
+      "sys"
+    ],
+    "disasm_exe.py": [
+      "capstone",
+      "pathlib",
+      "sys"
+    ],
+    "disasm_joao_control_layer.py": [
+      "__future__",
+      "decode_text",
+      "json",
+      "pathlib",
+      "sndt_disasm",
+      "sys"
+    ],
+    "dosbox_game_keys.py": [
+      "__future__",
+      "argparse",
+      "subprocess",
+      "time"
+    ],
+    "experiments/decode_bitlzss.py": [
+      "itertools",
+      "pathlib"
+    ],
+    "experiments/decode_ls11.py": [
+      "pathlib",
+      "struct",
+      "sys"
+    ],
+    "experiments/decode_lzw.py": [
+      "pathlib"
+    ],
+    "experiments/render_kao.py": [
+      "PIL",
+      "pathlib"
+    ],
+    "experiments/render_kao_v2.py": [
+      "PIL",
+      "pathlib"
+    ],
+    "experiments/render_kao_v3.py": [
+      "PIL",
+      "pathlib"
+    ],
+    "experiments/visualize_decoded.py": [
+      "PIL",
+      "pathlib"
+    ],
+    "export_event_overlap_graph.py": [
+      "__future__",
+      "collections",
+      "itertools",
+      "json",
+      "pathlib"
+    ],
+    "export_event_script_bridge.py": [
+      "__future__",
+      "json",
+      "pathlib"
+    ],
+    "export_event_text_index.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "export_game_topology_bundle.py": [
+      "__future__",
+      "json",
+      "pathlib"
+    ],
+    "export_joao_opening_topology.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "export_joao_opening_topology_v1.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "export_line_bridge_matrix.py": [
+      "__future__",
+      "collections",
+      "itertools",
+      "json",
+      "pathlib"
+    ],
+    "export_overlap_bridge_table.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "export_sndt_script_index.py": [
+      "__future__",
+      "json",
+      "pathlib"
+    ],
+    "export_sndt_topology.py": [
+      "__future__",
+      "dataclasses",
+      "decode_text",
+      "json",
+      "pathlib",
+      "struct",
+      "sys"
+    ],
+    "export_sndt_topology_v0_motif.py": [
+      "__future__",
+      "collections",
+      "decode_text",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "extract_dat_phase1.py": [
+      "collections",
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "extract_data1_parts.py": [
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "extract_messages.py": [
+      "json",
+      "pathlib",
+      "re"
+    ],
+    "extract_remaining_dats.py": [
+      "collections",
+      "json",
+      "pathlib"
+    ],
+    "extract_ships.py": [
+      "PIL",
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "extract_sndt_motif_records.py": [
+      "__future__",
+      "collections",
+      "json",
+      "pathlib",
+      "struct"
+    ],
+    "extract_sndt_short_text_motifs.py": [
+      "__future__",
+      "collections",
+      "decode_text",
+      "extract_sndt_motif_records",
+      "json",
+      "pathlib",
+      "re",
+      "sys"
+    ],
+    "gen_bgm.py": [
+      "math",
+      "numpy",
+      "pathlib",
+      "struct",
+      "subprocess",
+      "wave"
+    ],
+    "install_sndt_lab.py": [
+      "__future__",
+      "argparse",
+      "datetime",
+      "json",
+      "pathlib",
+      "shutil"
+    ],
+    "inventory_lzw.py": [
+      "collections",
+      "ls11_decode",
+      "pathlib"
+    ],
+    "ls11_decode.py": [
+      "pathlib",
+      "sys"
+    ],
+    "render_char_v2.py": [
+      "PIL",
+      "numpy",
+      "pathlib"
+    ],
+    "render_disc_v1.py": [
+      "PIL",
+      "numpy",
+      "pathlib"
+    ],
+    "render_font_v1.py": [
+      "PIL",
+      "numpy",
+      "pathlib"
+    ],
+    "render_iap_v1.py": [
+      "PIL",
+      "numpy",
+      "pathlib"
+    ],
+    "render_kao_v4.py": [
+      "PIL",
+      "numpy",
+      "pathlib"
+    ],
+    "render_portchip_v2.py": [
+      "PIL",
+      "numpy",
+      "pathlib"
+    ],
+    "render_portmap_v2.py": [
+      "PIL",
+      "numpy",
+      "pathlib",
+      "render_portchip_v2"
+    ],
+    "render_worldmap_hires.py": [
+      "PIL",
+      "numpy",
+      "pathlib",
+      "render_worldmap_v1",
+      "render_worldmap_v2"
+    ],
+    "render_worldmap_v1.py": [
+      "PIL",
+      "numpy",
+      "pathlib"
+    ],
+    "render_worldmap_v2.py": [
+      "PIL",
+      "numpy",
+      "pathlib",
+      "render_worldmap_v1"
+    ],
+    "scan_ls11_in_exe.py": [
+      "capstone",
+      "pathlib"
+    ],
+    "sndt_disasm.py": [
+      "__future__",
+      "decode_text",
+      "json",
+      "pathlib",
+      "struct",
+      "sys"
+    ],
+    "sndt_trace_runner.py": [
+      "__future__",
+      "argparse",
+      "datetime",
+      "hashlib",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "time"
+    ]
+  }
+}

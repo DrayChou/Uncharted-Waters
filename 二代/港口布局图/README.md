@@ -12,4 +12,6 @@
 
 配套索引可见：[`../资料/逆向资料/港口坐标与编号对照表.md`](../资料/逆向资料/港口坐标与编号对照表.md)。其中补了 100 港的攻略序号、区域、经纬度，以及与 `sea2_demo` 逆向项目对应的坐标信息。
 
+如果你更想看**从游戏资源直接提取**的原始港口图，而不是这里这种带说明文字的整理版，可另看：[`../资料/逆向资料/assets/sea2_demo/ports_original/`](../资料/逆向资料/assets/sea2_demo/ports_original/)。
+
 [百度盘打包下载](https://pan.baidu.com/s/1F_1zU8xOvOIIlhjmLV9tSw)  提取码: p4c0

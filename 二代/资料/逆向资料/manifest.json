@@ -132,6 +132,56 @@
       "path": "generated/za_dat_field_stats.csv",
       "confidence": "medium",
       "purpose": "za_dat每列统计摘要"
+    },
+    {
+      "path": "assets/sea2_demo/README.md",
+      "confidence": "high",
+      "purpose": "原始提取图片素材导入说明"
+    },
+    {
+      "path": "assets/sea2_demo/contact_sheets/",
+      "confidence": "high",
+      "purpose": "资源总览图与联系图板"
+    },
+    {
+      "path": "assets/sea2_demo/fonts/",
+      "confidence": "high",
+      "purpose": "字体与字模观察图"
+    },
+    {
+      "path": "assets/sea2_demo/portraits/",
+      "confidence": "high",
+      "purpose": "128张人物头像素材"
+    },
+    {
+      "path": "assets/sea2_demo/items/",
+      "confidence": "high",
+      "purpose": "128张道具/发现物图标素材"
+    },
+    {
+      "path": "assets/sea2_demo/ports_original/",
+      "confidence": "high",
+      "purpose": "101张原始港口资源图"
+    },
+    {
+      "path": "assets/sea2_demo/ships/",
+      "confidence": "high",
+      "purpose": "船只精灵素材"
+    },
+    {
+      "path": "assets/sea2_demo/npcs/",
+      "confidence": "medium",
+      "purpose": "角色行走sprite素材"
+    },
+    {
+      "path": "assets/sea2_demo/world/",
+      "confidence": "high",
+      "purpose": "世界地图图像"
+    },
+    {
+      "path": "assets/sea2_demo/charts/",
+      "confidence": "medium",
+      "purpose": "剧情关系与结构图"
     }
   ]
 }

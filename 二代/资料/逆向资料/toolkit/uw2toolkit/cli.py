@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .config import ToolkitConfig
 from .dat_extract import extract_phase1
+from .doctor import run_doctor, summarize
 from .ls11 import decode_file, write_parts
 from .render.portchip import save_atlas_sheets
 from .render.portmap import render_all_portmaps
@@ -62,6 +63,12 @@ def cmd_decode_text(args: argparse.Namespace) -> None:
         print(f"[{i}] {m}")
 
 
+def cmd_doctor(args: argparse.Namespace) -> None:
+    cfg = ToolkitConfig.from_env(raw_dir=args.raw_dir, output_dir=args.out_dir)
+    summary = summarize(run_doctor(cfg))
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+
+
 def build_parser() -> argparse.ArgumentParser:
     cfg = ToolkitConfig.from_env()
     parser = argparse.ArgumentParser(prog='uw2tool')
@@ -106,6 +113,11 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument('--charmap', default=str(cfg.charmap_path))
     p.add_argument('--all', action='store_true')
     p.set_defaults(func=cmd_decode_text)
+
+    p = sub.add_parser('doctor')
+    p.add_argument('--raw-dir', default=str(cfg.raw_dir))
+    p.add_argument('--out-dir', default=str(cfg.output_dir))
+    p.set_defaults(func=cmd_doctor)
 
     return parser
 

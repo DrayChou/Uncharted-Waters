@@ -14,6 +14,8 @@
 - `uw2toolkit.render.portmap` — Portmap 港口图渲染
 - `uw2toolkit.render.worldmap` — Worldmap v1 / v2 解码与渲染
 - `uw2toolkit.cli` — CLI 入口
+- `uw2toolkit.doctor` — 环境 / 依赖 / 原始资源就绪检查
+- `tests/` — 基础单元测试
 
 ## 输入目录约定
 
@@ -75,6 +77,8 @@ python -m uw2toolkit.cli render-portmap
 python -m uw2toolkit.cli render-worldmap --mode v2
 python -m uw2toolkit.cli extract-phase1
 python -m uw2toolkit.cli decode-text raw/Koukai2/Message.dat
+python -m uw2toolkit.cli doctor
+python -m unittest discover -s tests -v
 ```
 
 ## 当前定位
@@ -87,11 +91,12 @@ python -m uw2toolkit.cli decode-text raw/Koukai2/Message.dat
 
 ## 下一步建议
 
-1. 先用你自己的原始资源目录跑通：
+1. 先运行 `python -m uw2toolkit.cli doctor`，确认原始资源目录和依赖是否就绪
+2. 再用你自己的原始资源目录跑通：
    - `inventory-lzw`
    - `render-portchip`
    - `render-portmap`
    - `render-worldmap --mode v2`
    - `extract-phase1`
-2. 再继续补文本链和研究链
-3. 最后把复刻工程直接消费的规范化 JSON 接到这里
+3. 再继续补文本链和研究链
+4. 最后把复刻工程直接消费的规范化 JSON 接到这里

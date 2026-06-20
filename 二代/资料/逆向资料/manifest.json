@@ -287,6 +287,16 @@
       "path": "toolkit/output/.gitkeep",
       "confidence": "high",
       "purpose": "默认输出目录占位"
+    },
+    {
+      "path": "toolkit/uw2toolkit/doctor.py",
+      "confidence": "high",
+      "purpose": "工具包环境与依赖检查模块"
+    },
+    {
+      "path": "toolkit/tests/",
+      "confidence": "high",
+      "purpose": "工具包基础单元测试"
     }
   ]
 }
